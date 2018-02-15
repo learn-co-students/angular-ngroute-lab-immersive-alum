@@ -1,3 +1,6 @@
 <div>
-	User!
+	<div ng-view>
+		<h1>{{user.data.name.title}} {{user.data.name.first}} {{user.data.name.last}}</h1>
+		<h4>{{user.data.email}}</h4>
+	</div>
 </div>
